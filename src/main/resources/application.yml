@@ -2,5 +2,11 @@ spring:
   application:
     name: shutdown
 
+management:
+  endpoint:
+    health:
+      probes:
+        enabled: true
+
 application:
   delay: 300ms
